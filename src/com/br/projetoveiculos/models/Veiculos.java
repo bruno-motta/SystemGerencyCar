@@ -11,14 +11,14 @@ public class Veiculos {
     public Veiculos(){
 
     }
-
+    //teste
     public Veiculos(String marca, String modelo, int ano, double preco){
         this.marca = marca;
         this.modelo = modelo;
         this.anoFabricacao = ano;
         this.preco = preco;
     }
-
+    //teste
     public Veiculos(String marca, String modelo){
         this(marca, modelo, 0, 0.0);
     }
@@ -66,4 +66,6 @@ public class Veiculos {
     public void setDiference(boolean diference) {
         this.diference = diference;
     }
+
+
 }
