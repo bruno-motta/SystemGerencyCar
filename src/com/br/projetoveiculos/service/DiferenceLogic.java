@@ -18,6 +18,4 @@ public class DiferenceLogic  {
                 (isEspecial(veiculo) ? " (Especial)" : ""));
     }
 
-
-
 }
